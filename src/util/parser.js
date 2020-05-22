@@ -3,7 +3,7 @@ import {
   suiteByCode,
   codeByRank,
   codeBySuite,
-} from 'src/constant/card'
+} from 'constant/card'
 
 /**
  * Parse 2-character card code
