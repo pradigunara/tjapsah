@@ -4,7 +4,38 @@
   background-position: center center;
   background-repeat: no-repeat;
   position: fixed;
-  height: 100vmin;
+  height: 100vh;
   width: 100vw;
   z-index: -999999;
+}
+
+.card-image {
+  width: 7rem;
+}
+
+@media screen and (max-width: 600px) {
+  .card-image {
+    width: 5rem;
+  }
+}
+
+.board {
+  height: 100vh;
+  width: 100vw;
+}
+
+.board-grid {
+  height: 100%;
+}
+
+.test {
+  background-color: red;
+}
+
+.test2 {
+  background-color: cyan;
+}
+
+.test3 {
+  background-color: greenyellow;
 }

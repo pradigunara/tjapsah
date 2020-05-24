@@ -1,9 +1,4 @@
-import {
-  rankByCode,
-  suiteByCode,
-  codeByRank,
-  codeBySuite,
-} from 'constant/card'
+import { rankByCode, suiteByCode, codeByRank, codeBySuite } from 'constant/card'
 
 /**
  * Parse 2-character card code
